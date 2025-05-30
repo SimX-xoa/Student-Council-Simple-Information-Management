@@ -26,7 +26,7 @@ public class Main {
         System.out.println(BBCD_StudentCouncil.events());
 
         BBCD_StudentCouncil.removeMember(70940);
-        System.out.println();
+        
         BBCD_StudentCouncil.findMember(70940);
 //--------------------------------------------------------------------------------------------Test  
     }
