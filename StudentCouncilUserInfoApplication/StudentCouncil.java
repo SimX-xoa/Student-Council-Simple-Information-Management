@@ -63,7 +63,11 @@ public class StudentCouncil {
         }
     }
 
-    public ArrayList<Event> events(){
+    public ArrayList<Event> getEventList(){
         return eventList;
+    }
+
+    public ArrayList<Student> getStudentList(){
+        return studentList;
     }
 }
